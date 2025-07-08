@@ -80,7 +80,7 @@ Actual 'cloudy' images:
 
 85 were predicted as 'water'.
 
- ✅ # **Conclusions**
+# ✅  **Conclusions**
 
 1.Transfer Learning Outperformed Custom CNNs
 
