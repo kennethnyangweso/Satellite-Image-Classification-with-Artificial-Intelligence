@@ -1,4 +1,0 @@
-streamlit
-onnxruntime==1.15.1
-numpy
-Pillow
