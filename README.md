@@ -96,29 +96,23 @@ The dataset consists of satellite images collected from various sources includin
 - **Visual Characteristics**: White/gray amorphous structures, varying opacity, soft edges
 - **Challenges**: Partially cloudy images may show surface features, thin clouds can be transparent
 - **Satellite Context**: Common in tropical regions, affects surface monitoring
-- **Sample Count**: 300 images
-- **Key Features**: High brightness values, low saturation, high frequency texture
+
 
 #### Class 2: Desert 🏜️
 - **Visual Characteristics**: Uniform tan/sand colors, minimal vegetation, smooth textures
 - **Challenges**: Sandy deserts vs rocky deserts, seasonal color variations, sand dunes creating shadows
 - **Satellite Context**: Common in arid regions, stable throughout year
-- **Sample Count**: 300 images
-- **Key Features**: High brightness in red band, low NDVI values, uniform texture
 
 #### Class 3: Green Area 🌿
 - **Visual Characteristics**: Vegetation green colors, varied textures (forests, crops, grasslands)
 - **Challenges**: Seasonal changes (green to brown), different vegetation types, shadow effects
 - **Satellite Context**: Indicates agricultural or forested regions
-- **Sample Count**: 300 images
-- **Key Features**: High green band values, high NDVI (>0.3), textural variability
+
 
 #### Class 4: Water 💧
 - **Visual Characteristics**: Blue/dark surfaces, smooth texture, reflections possible
 - **Challenges**: Cloud shadows on water, turbid water (brown/green), small water bodies
 - **Satellite Context**: Rivers, lakes, oceans, reservoirs
-- **Sample Count**: 300 images
-- **Key Features**: Low reflectance in NIR, high absorption, smooth texture
 
 ### 2.3 Class Distribution
 
