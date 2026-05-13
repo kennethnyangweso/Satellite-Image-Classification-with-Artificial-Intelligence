@@ -30,13 +30,15 @@ Traditional manual classification methods are time-consuming, subjective, and ca
 
 ### 1.3 Business Objectives
 
-| Objective | Description | Business Impact |
-|-----------|-------------|-----------------|
-| **Primary Objective** | Develop an automated satellite image classifier achieving >95% accuracy across four land cover classes | Reduce manual classification time by 95% |
-| **Secondary Objective 1** | Create a scalable solution that can process thousands of images efficiently | Enable real-time environmental monitoring |
-| **Secondary Objective 2** | Minimize false positives for critical classes (water bodies, vegetation) | Prevent costly misclassifications in disaster response |
-| **Secondary Objective 3** | Deploy a solution that generalizes to new satellite sources | Reduce retraining costs and time |
-| **Secondary Objective 4** | Provide explainable predictions for stakeholder trust | Increase adoption and regulatory compliance |
+
+ **Primary Objective** 
+ - Develop an automated satellite image classifier achieving >95% accuracy across four land cover classes | Reduce manual classification time by 95% 
+
+ **Secondary Objectives**  
+ - Create a scalable solution that can process thousands of images efficiently | Enable real-time environmental monitoring |
+ - Minimize false positives for critical classes (water bodies, vegetation) | Prevent costly misclassifications in disaster response |
+ - Deploy a solution that generalizes to new satellite sources | Reduce retraining costs and time |
+ - Provide explainable predictions for stakeholder trust | Increase adoption and regulatory compliance |
 
 ### 1.4 Use Cases and Stakeholders
 
@@ -65,14 +67,6 @@ Traditional manual classification methods are time-consuming, subjective, and ca
 | **Precision (per class)** | >0.90 | **0.99-1.00** | ✅ Exceeded |
 | **Recall (per class)** | >0.90 | **0.99-1.00** | ✅ Exceeded |
 | **Inference Time** | <100ms per image | ~50ms per image | ✅ Achieved |
-
-#### Secondary Metrics
-| Metric | Target | Actual | Status |
-|--------|--------|--------|--------|
-| **Training Time** | <2 hours | ~45 minutes | ✅ Achieved |
-| **Model Size** | <150 MB | ~90 MB | ✅ Achieved |
-| **Cross-validation Score** | >94% | 99.7% ± 0.3% | ✅ Achieved |
-| **Per-class F1-Score (min)** | >0.85 | 0.99 | ✅ Exceeded |
 
 #### Business KPIs
 - **Time savings**: Estimated 95% reduction in manual classification time
@@ -139,6 +133,8 @@ The dataset consists of satellite images collected from various sources includin
 
 <img width="704" height="470" alt="image" src="https://github.com/user-attachments/assets/719254b0-7e83-48ef-81fd-f478adbf3f84" />
 
+### Sample images
+
 <img width="1152" height="593" alt="image" src="https://github.com/user-attachments/assets/1af5d8be-816e-47d8-969f-b68019879bc8" />
 
 ## Modeling
@@ -189,6 +185,8 @@ Models used are:
 3. **No Systematic Bias**
 - Errors are symmetric (1 each, different directions)
 - Suggests the misclassifications are due to **ambiguous edge cases**
+
+
 
 
 
