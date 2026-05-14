@@ -181,7 +181,39 @@ Models used are:
 - Suggests the misclassifications are due to **ambiguous edge cases**
 
 
+## 🎯 EXECUTIVE SUMMARY
 
+A deep learning-based satellite image classifier was successfully developed, achieving **99.88% accuracy** on satellite imagery across four classes: Cloudy, Desert, Green Area, and Water. The ResNet50 fine-tuned model outperformed both the CNN baseline (95.04%) and EfficientNetB0 (99.76%), demonstrating the effectiveness of transfer learning for remote sensing applications.
+
+**The model is production-ready for satellite imagery analysis.**
+
+## 📊 FINAL RESULTS SUMMARY
+
+| Model | Accuracy | F1-Score | Test Errors | Status |
+|-------|----------|----------|-------------|--------|
+| CNN Baseline | 95.04% | 0.9506 | 42/846 | Baseline |
+| EfficientNetB0 | 99.76% | 0.9978 | 2/846 | Excellent |
+| **ResNet50** | **99.88%** | **0.9987** | **1/846** | **🏆 BEST** |
+
+## ⚠️ CRITICAL LIMITATION: DOMAIN MISMATCH
+
+### What the Model Was Trained On
+
+| Aspect | Training/Validation/Test Data |
+|--------|------------------------------|
+| **Image Type** | Satellite imagery (top-down views) |
+| **Perspective** | Nadir (straight down) |
+| **Sources** | Sentinel, Landsat, aerial imagery |
+| **Resolution** | Standardized satellite resolution |
+
+### What the Model Was NOT Trained On
+
+| Image Type | Why It Fails | Example |
+|------------|--------------|---------|
+| **Ground-level photos** | Completely different perspective | Smartphone pictures of lakes |
+| **Angled shots** | Model expects top-down view | Photos taken from ground level |
+| **Regular camera images** | Different color distribution, lighting, shadows | DSLR photos of forests |
+| **Social media images** | Compressed, filtered, non-standard | Google Images, Instagram photos 
 
 
 
