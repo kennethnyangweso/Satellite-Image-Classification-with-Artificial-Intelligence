@@ -214,24 +214,29 @@ A deep learning-based satellite image classifier was successfully developed, ach
 
 Satellite View (Model Knows) Ground View (Model Fails)
 
-╔═══════════════════════════════════════════════════════════════════╗
-║                                                                   ║
-║   ✅ MODEL IS PRODUCTION-READY FOR SATELLITE IMAGERY             ║
-║                                                                   ║
-║   • Accuracy: 99.88% on satellite images                         ║
-║   • Tested: 846 satellite images, 1 error                        ║
-║   • Domain: Satellite imagery (top-down views)                   ║
-║                                                                   ║
-║   ⚠️  NOT RECOMMENDED FOR GROUND-LEVEL PHOTOS                    ║
-║                                                                   ║
-║   • Ground photos will be misclassified                          ║
-║   • Water and green areas → predicted as desert                  ║
-║   • This is expected domain shift, not model failure             ║
-║                                                                   ║
-║   🚀 DEPLOYMENT STATUS: READY                                     ║
-║   📡 USE FOR: Satellite imagery only                             ║
-║   ❌ AVOID: Ground-level photography                              ║
-║                                                                   ║
-╚═══════════════════════════════════════════════════════════════════╝
+ ✅ MODEL IS PRODUCTION-READY FOR SATELLITE IMAGERY             
+                                                                  
+  • Accuracy: 99.88% on satellite images                         
+  
+  • Tested: 846 satellite images, 1 error                        
+  
+  • Domain: Satellite imagery (top-down views)                   
+                                                                   
+ ⚠️  NOT RECOMMENDED FOR GROUND-LEVEL PHOTOS                    
+                                                                   
+   
+  • Ground photos will be misclassified                          
+  
+  • Water and green areas → predicted as desert                  
+  
+  • This is expected domain shift, not model failure             
+                                                                   
+  🚀 DEPLOYMENT STATUS: READY                                     
+  
+  📡 USE FOR: Satellite imagery only                             
+  
+  ❌ AVOID: Ground-level photography                              
+                                                                   
+
 
 
