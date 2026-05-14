@@ -1,7 +1,4 @@
-# Satellite Image Classification Project Report
-## Classification of Cloudy, Desert, Green Area, and Water from Satellite Imagery
-
----
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/224a9750-66d7-4131-b362-de816d7b9aef" />
 
 ## 1. BUSINESS UNDERSTANDING
 
@@ -213,11 +210,28 @@ A deep learning-based satellite image classifier was successfully developed, ach
 | **Ground-level photos** | Completely different perspective | Smartphone pictures of lakes |
 | **Angled shots** | Model expects top-down view | Photos taken from ground level |
 | **Regular camera images** | Different color distribution, lighting, shadows | DSLR photos of forests |
-| **Social media images** | Compressed, filtered, non-standard | Google Images, Instagram photos 
+| **Social media images** | Compressed, filtered, non-standard | Google Images, Instagram photos |
 
+Satellite View (Model Knows) Ground View (Model Fails)
 
-
-
-
+╔═══════════════════════════════════════════════════════════════════╗
+║                                                                   ║
+║   ✅ MODEL IS PRODUCTION-READY FOR SATELLITE IMAGERY             ║
+║                                                                   ║
+║   • Accuracy: 99.88% on satellite images                         ║
+║   • Tested: 846 satellite images, 1 error                        ║
+║   • Domain: Satellite imagery (top-down views)                   ║
+║                                                                   ║
+║   ⚠️  NOT RECOMMENDED FOR GROUND-LEVEL PHOTOS                    ║
+║                                                                   ║
+║   • Ground photos will be misclassified                          ║
+║   • Water and green areas → predicted as desert                  ║
+║   • This is expected domain shift, not model failure             ║
+║                                                                   ║
+║   🚀 DEPLOYMENT STATUS: READY                                     ║
+║   📡 USE FOR: Satellite imagery only                             ║
+║   ❌ AVOID: Ground-level photography                              ║
+║                                                                   ║
+╚═══════════════════════════════════════════════════════════════════╝
 
 
