@@ -29,13 +29,13 @@ Traditional manual classification methods are time-consuming, subjective, and ca
 
 
  **Primary Objective** 
- - Develop an automated satellite image classifier achieving >95% accuracy across four land cover classes | Reduce manual classification time by 95% 
+ - Develop an automated satellite image classifier achieving >95% accuracy across four land cover classes.
 
  **Secondary Objectives**  
- - Create a scalable solution that can process thousands of images efficiently | Enable real-time environmental monitoring |
- - Minimize false positives for critical classes (water bodies, vegetation) | Prevent costly misclassifications in disaster response |
- - Deploy a solution that generalizes to new satellite sources | Reduce retraining costs and time |
- - Provide explainable predictions for stakeholder trust | Increase adoption and regulatory compliance |
+ - Create a scalable solution that can process thousands of images efficiently.
+ - Minimize false positives for critical classes (water bodies, vegetation).
+ - Deploy a solution that generalizes to new satellite sources. 
+ - Provide explainable predictions for stakeholder trust.
 
 ### 1.4 Use Cases and Stakeholders
 
