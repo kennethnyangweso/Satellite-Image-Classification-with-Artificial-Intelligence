@@ -252,5 +252,35 @@ Demonstration using new satellite images sourced from google search
 
 https://screenrec.com/share/WcM5uE3VJk
 
+## Project structure
+
+     Satellite-Image-Classification/
+    ├── deployment/          # FastAPI deployment files
+    ├── models/             # Trained model files
+    ├── src/                # Source code
+    ├── notebooks/          # Jupyter notebooks
+    ├── docs/               # Documentation
+    └── tests/              # Test files
+
+### Clone the Repository
+```bash
+git clone https://github.com/yourusername/Satellite-Image-Classification.git
+cd Satellite-Image-Classification
+
+```
+
+## 🙏 Acknowledgments
+
+- ImageNet for pre-trained weights
+
+- Sentinel & Landsat for satellite imagery
+
+- PyTorch team for deep learning framework
+
+## 👨‍💻 Author
+
+Kenneth Nyangweso
+AI Engineer|Machine Learning Engineer
+
 
 
