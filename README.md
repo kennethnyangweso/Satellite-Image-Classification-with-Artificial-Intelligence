@@ -238,5 +238,19 @@ Satellite View (Model Knows) Ground View (Model Fails)
   ❌ AVOID: Ground-level photography                              
                                                                    
 
+## Deployment Results
+
+<img width="1366" height="768" alt="Screenshot (62)" src="https://github.com/user-attachments/assets/3a8acf22-3257-4849-8d8d-e5163842c3b8" />
+
+<img width="1366" height="768" alt="Screenshot (63)" src="https://github.com/user-attachments/assets/d97f77af-c76f-4238-868b-b76733a3a829" />
+
+<img width="1366" height="768" alt="Screenshot (64)" src="https://github.com/user-attachments/assets/407a06f1-7ac0-45a1-889a-8e1628ab6504" />
+
+### Demo link:
+
+Demonstration using new satellite images sourced from google search
+
+https://screenrec.com/share/WcM5uE3VJk
+
 
 
