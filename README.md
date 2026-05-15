@@ -1,5 +1,16 @@
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/224a9750-66d7-4131-b362-de816d7b9aef" />
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Computer Vision](https://img.shields.io/badge/Computer_Vision-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=plotly&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![CNN](https://img.shields.io/badge/CNN-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![ResNet50](https://img.shields.io/badge/ResNet50-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![EfficientNetB0](https://img.shields.io/badge/EfficientNetB0-009688?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
+
+
 ## 1. BUSINESS UNDERSTANDING
 
 ### 1.1 Overview
